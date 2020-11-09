@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="2.jpg" />
+    <None Remove="32656500-fondo-de-la-vendimia-marco-de-halloween-o-la-textura-ilustración.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="2.jpg" />
+    <Resource Include="32656500-fondo-de-la-vendimia-marco-de-halloween-o-la-textura-ilustración.jpg" />
+  </ItemGroup>
+
+</Project>
